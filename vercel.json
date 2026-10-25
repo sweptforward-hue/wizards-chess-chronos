@@ -1,11 +1,6 @@
 {
   "version": 2,
-  "outputDirectory": "public",
   "rewrites": [
-    { "source": "/api/health", "destination": "/api/health.js" },
-    { "source": "/api/benchmark/latest", "destination": "/api/benchmark.js" },
-    { "source": "/api/matches", "destination": "/api/matches.js" },
-    { "source": "/api/leaderboard", "destination": "/api/leaderboard.js" },
-    { "source": "/(.*)", "destination": "/$1" }
+    { "source": "/api/benchmark/latest", "destination": "/api/benchmark" }
   ]
 }
